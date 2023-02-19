@@ -2,7 +2,7 @@ import discord, ssl
 from discord.ext import commands
 
 TOKEN = "**Token Goes Here**"
-GUILD = "myServer"
+GUILD = "gnat's server"
 intents = discord.Intents.all()
 intents.members = True
 bot = commands.Bot(command_prefix='!', intents=intents)
